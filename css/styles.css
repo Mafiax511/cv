@@ -1,20 +1,43 @@
 body {
-  background-color: #F4F3F3;
+  background-color: #480032;
+  padding: 8px;
 }
 
-img {}
+img {
+  border: solid #1EAFED;
+}
+
+#my {
+  border-radius: 30%;
+}
 
 hr {
-  border-top-width: 25px;
+  border: 10px;
+  border-radius: 100%;
   width: 30%;
-  border-style: dotted none none;
+  border-style: outset none none;
   border-color: #F8F3D4;
 }
 
-h1, h2, h3 {
-  color: #222831;
+h1 {
+  padding: 20px;
+  font-family: Georgia;
+  text-align: center;
+  text-shadow: 2px 2px 2px #1EAFED;
+  color: #FFFFFF;
 }
 
-p, ol, ul {
-  color: #436E4F;
+h2, h3 {
+  font-family: Book Antiqua;
+  color: #FFFFFF;
+}
+
+p, ol, ul, label {
+  font-family: Georgia;
+  color: #1EAFED;
+}
+
+a {
+  color: #FFFFFF;
+  /*text-decoration:;*/
 }
